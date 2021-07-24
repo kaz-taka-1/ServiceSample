@@ -18,6 +18,6 @@
         android:layout_height="wrap_content"
         android:enable="false"
         android:onClick="onStopButtonClick"
-        android:text="@string/bt_play_stop"
+        android:text="@string/bt_play_stop"/>
 
 </LinearLayout>
