@@ -16,7 +16,7 @@
         android:id="@+id/btStop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:enable="false"
+        android:enabled="false"
         android:onClick="onStopButtonClick"
         android:text="@string/bt_play_stop"/>
 
