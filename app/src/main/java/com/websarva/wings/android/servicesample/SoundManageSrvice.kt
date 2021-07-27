@@ -39,7 +39,7 @@ class SoundManageService : Service() {
     }
     private inner class PlayerPreparedListener :MediaPlayer.OnPreparedListener{
         override fun onPrepared(mp: MediaPlayer?) {
-            mp.start()
+            mp?.start()
         }
     }
     private inner class PlayerCompletionListener :MediaPlayer.OnCompletionListener{
