@@ -19,4 +19,12 @@ class MainActivity : AppCompatActivity() {
         btPlay.isEnabled = false
         btStop.isEnabled = true
     }
+    fun onStopButtonClick(view: View){
+        val intent = Intent(this@MainActivity,SoundManageService::class.java)
+        stopService(intent)
+        val btPlay = findViewById<Button>(R.id.btPlay)
+        val btStop = findViewById<Button>(R.id.btStop)
+        btPlay.isEnabled = true
+        btStop.isEnabled = false
+    }
 }
