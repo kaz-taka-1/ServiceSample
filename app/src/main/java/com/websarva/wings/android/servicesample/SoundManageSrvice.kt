@@ -5,6 +5,7 @@ import android.content.Intent
 import android.media.MediaPlayer
 import android.net.Uri
 import android.os.IBinder
+import android.view.View
 
 class SoundManageService : Service() {
 
@@ -46,4 +47,5 @@ class SoundManageService : Service() {
             stopSelf()
         }
     }
+
 }
